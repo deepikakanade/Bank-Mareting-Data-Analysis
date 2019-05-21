@@ -1,5 +1,11 @@
 # Bank-Mareting-Data-Analysis
-EE 559 Mathematical Pattern Recognition Class Project
+
+## Requirements
+* Python 2.7 
+* Numpy >= 1.14.2
+* Matplotlib >= 2.2.0
+* Pandas >= 0.22.0
+* Scikit-Learn >= 0.19.1
 
 The data was collected as a marketing campaign to predict if a customer would make a term deposit in the bank.
 
@@ -10,6 +16,7 @@ The issues in the dataset were as follows:
 -> Preprocessing involved handling categorical data.
 -> The dataset was imbalanaced. Number of class 1 (yes) labels were low compared to number of class 0 (no) labels.
 
+## Preprocessing
 Preprocessing work done on the data included:
 1) Outlier removal 
 2) Label and one hot encoding
@@ -18,6 +25,7 @@ Preprocessing work done on the data included:
 5) Dimensionality reduction
 6) Normalization and standardization 
 
+# Models
 Classsifiers used:
 1) Support Vector Machine (SVM)
 2) Naive Bayes
@@ -25,6 +33,7 @@ Classsifiers used:
 4) Random Forest
 5) Perceptron
 
+# Results
 Performance Evaluation Metric used:
 1) F1 score
 2) AUC score
